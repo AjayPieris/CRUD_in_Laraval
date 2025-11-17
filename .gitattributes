@@ -9,5 +9,8 @@
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
+
+# Force GitHub to count PHP & Blade correctly
 *.php linguist-detectable=true
 *.blade.php linguist-detectable=true
+*.blade.php linguist-language=PHP
