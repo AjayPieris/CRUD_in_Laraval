@@ -14,3 +14,14 @@ CHANGELOG.md export-ignore
 *.php linguist-detectable=true
 *.blade.php linguist-detectable=true
 *.blade.php linguist-language=PHP
+
+# Language override for PHP and Blade
+*.php linguist-detectable=true
+*.php linguist-language=PHP
+
+*.blade.php linguist-detectable=true
+*.blade.php linguist-language=PHP
+
+# Other patterns you might already have
+/vendor/* linguist-vendored
+node_modules/* linguist-vendored
